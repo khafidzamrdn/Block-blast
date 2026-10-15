@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Blast Web</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+
+    <h1>BLOCK BLAST</h1>
+    <div class="score-board">
+        <div>Skor: <span id="score">0</span></div>
+        <div>Skor Tertinggi: <span id="high-score">0</span></div>
+    </div>
+
+    <div id="board"></div>
+    
+    <div class="tray" id="tray"></div>
+
+    <div id="game-over">
+        <h2>GAME OVER</h2>
+        <p>Tidak ada ruang tersisa!</p>
+        <button onclick="resetGame()">Main Lagi</button>
+    </div>
+
+    <script src="script.js"></script>
+ </body>
+</html>
